@@ -1,10 +1,10 @@
 # Exercício 1 - Inserindo Dados
 
-## 1.1 Clientes: Inserido os seguintes clientes na coleção client:
+## 1.1 Clientes: Inserido os seguintes clientes na coleção client: OK
 
 ```Javascript
 {
-  _id: ObjectId('680afbfb6961eb20b8353420'),
+  _id: ObjectId('680eb6ce653df6d2aece74a7'),
   full_name: 'Maria Silva',
   cpf: '12345678901',
   email: 'maria.silva@email.com',
@@ -19,7 +19,7 @@
   description: 'Cliente individual'
 }
 {
-  _id: ObjectId('680afbfb6961eb20b8353421'),
+  _id: ObjectId('680eb6ce653df6d2aece74a8'),
   full_name: 'Empresa Soluções Ltda',
   cpf: null,
   email: 'contato@solucoes.com.br',
@@ -35,12 +35,12 @@
 }
 ```
 
-## 1.2 Processos: Inserido os seguintes processos para os clientes na coleção client_processes:
+## 1.2 Processos: Inserido os seguintes processos para os clientes na coleção client_processes: OK
 
 ```Javascript
 {
-  _id: ObjectId('680afd2f2107163cae5835d7'),
-  client_id: '680afbfb6961eb20b8353420',
+  _id: ObjectId('680eb903e73f510eed4fbb05'),
+  client_id: '680eb6ce653df6d2aece74a7',
   number: 'PROC-2023-001',
   value: 1500,
   status: 'ativo',
@@ -49,8 +49,8 @@
   created_at: 2023-10-26T10:00:00.000Z
 }
 {
-  _id: ObjectId('680afd2f2107163cae5835d8'),
-  client_id: '680afbfb6961eb20b8353421',
+  _id: ObjectId('680eb903e73f510eed4fbb06'),
+  client_id: '680eb6ce653df6d2aece74a8',
   number: 'PROC-2023-002',
   value: 5500.5,
   status: 'em análise',
