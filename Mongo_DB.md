@@ -1,7 +1,8 @@
-Exercício 1 - Inserindo Dados
+# Exercício 1 - Inserindo Dados
 
-1.1 Clientes: Inserido os seguintes clientes na coleção client:
+## 1.1 Clientes: Inserido os seguintes clientes na coleção client:
 
+```Javascript
 {
   _id: ObjectId('680afbfb6961eb20b8353420'),
   full_name: 'Maria Silva',
@@ -32,9 +33,11 @@ Exercício 1 - Inserindo Dados
   cnpj_enterprise: '12345678000190',
   description: 'Cliente corporativo'
 }
+```
 
-1.2 Processos: Inserido os seguintes processos para os clientes na coleção client_processes:
+## 1.2 Processos: Inserido os seguintes processos para os clientes na coleção client_processes:
 
+```Javascript
 {
   _id: ObjectId('680afd2f2107163cae5835d7'),
   client_id: '680afbfb6961eb20b8353420',
@@ -55,10 +58,11 @@ Exercício 1 - Inserindo Dados
   description: 'Análise de contrato de prestação de serviços.',
   created_at: 2023-11-15T14:30:00.000Z
 }
+```
 
-#Ver se precisa adicionar os outros 02 blocos gerados pelo .find() da coleção Client_processes
-1.3 Eventos: Inserido os seguintes eventos na coleção events:
+## 1.3 Eventos: Inserido os seguintes eventos na coleção events:
 
+```Javascript
 {
   _id: ObjectId('680afdb096c2741985d11ff1'),
   client_id: '680afbfb6961eb20b8353420',
@@ -97,3 +101,6 @@ Exercício 1 - Inserindo Dados
   zip_code: '22020030',
   proposal_status: 'pending accepted'
 }
+```
+
+**Ver se precisa adicionar os outros 02 blocos gerados pelo .find() da coleção Client_processes**
